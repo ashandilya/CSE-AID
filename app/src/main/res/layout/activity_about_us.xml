@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUs">
+
+    <TextView
+        android:id="@+id/for_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Our Team"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <!--Souvik Pal-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/for_font"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:padding="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/sovik" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Souvik Pal"
+                        android:textColor="#fff"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Supervisor)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Assistant Professor of Computer Science and Engineering at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer. Text messages may be sent over a cellular network, or may also be sent via an Internet connection."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <!--Ankita Roy-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/anky" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Ankita Roy"
+                        android:textColor="#fff"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Student)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Computer Science and Engineering student at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="I am someone who is consistently growing themselves and who takes the time to continue learning.Someone who thinks positively and who can execute on difficult tasks.I am modest, but hard working and I consistently set firm goals for myself."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--Akriti Jha-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/aj" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Akriti Jha"
+                        android:textColor="#fff"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Student)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Computer Science and Engineering student at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" I am passionate about technology and having keen interest in learning new things.I always dreamed to be an engineer because this is the only things that makes me crazy.And its well said that an engineer is an all rounder.. So, I don't want to be perfect but i wanted to be an all rounder not perfect but yes want to know each and everything."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--Aquib Jawed-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/aquib" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Aquib Jawed"
+                        android:textColor="#fff"
+                        android:textSize="35sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Student)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Computer Science and Engineering student at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer. Text messages may be sent over a cellular network, or may also be sent via an Internet connection."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--Ali Shiraz-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/ali" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Ali Shiraz Akhter"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Student)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Computer Science and Engineering student at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer. Text messages may be sent over a cellular network, or may also be sent via an Internet connection."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--Anshu Shandilya-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/pic" />
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="183dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="212dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Anshu Kumar Shandilya"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/for_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="(Student)"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/linkedin" />
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/facebook" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/twitter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="''Computer Science and Engineering student at JISCE''"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/for_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="I am a student, volunteer, and Developer currently living in Kolkata, India. My interests range from technology to entrepreneurship. I am also interested in programming, volunteering, and sports."
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

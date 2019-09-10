@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="36dp"
+    tools:context=".suggestion"
+    android:background="@drawable/suggestion_bg_gradient">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/suggestion_card"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".suggestion">
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter Email address"
+                android:inputType="textEmailAddress"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:hint="Subject"
+                android:inputType="textEmailSubject"
+                />
+
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:hint="Type your Suggestion"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+<Button
+    android:id="@+id/button"
+    android:layout_below="@+id/suggestion_card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send"
+    android:layout_marginTop="25dp"
+    android:layout_centerInParent="true"
+    android:background="#2a2d36"
+    android:textColor="#fff"
+    android:textSize="16sp"
+    />
+    </RelativeLayout>

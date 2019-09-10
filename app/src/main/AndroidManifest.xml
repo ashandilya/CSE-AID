@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uber.repo.mini_project_cse">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/graduate"
+        android:label="JIS CSE"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".calender_Activity" />
+        <activity android:name=".routine_Activity" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".OCW" />
+        <activity android:name=".java" />
+        <activity android:name=".OS" />
+        <activity android:name=".OR" />
+        <activity android:name=".Economic" />
+        <activity android:name=".cg" />
+        <activity android:name=".DBMS" />
+        <activity android:name=".syllabus" />
+        <activity android:name=".todo" />
+        <activity android:name=".todolist" />
+        <activity android:name=".suggestion" />
+        <activity android:name=".splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <!--<activity android:name=".SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <activity android:name=".question_Sets" />
+        <activity android:name=".mentor" />
+        <activity android:name=".java_question" />
+        <activity android:name=".cg_question" />
+        <activity android:name=".eco_question" />
+        <activity android:name=".or_question" />
+        <activity android:name=".os_question" />
+        <activity android:name=".dbms_question"></activity>
+    </application>
+
+</manifest>
