@@ -10,7 +10,6 @@
     tools:context=".aboutUs">
 
     <TextView
-        android:id="@+id/for_font"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -47,7 +46,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/sovik" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
@@ -138,7 +137,7 @@
         </android.support.v7.widget.CardView>
 
 
-        <!--Ankita Roy-->
+        <!--team1-->
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
@@ -156,7 +155,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/anky" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
@@ -246,7 +245,7 @@
 
         </android.support.v7.widget.CardView>
 
-        <!--Akriti Jha-->
+        <!--team2-->
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
@@ -264,7 +263,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/aj" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
@@ -354,7 +353,7 @@
 
         </android.support.v7.widget.CardView>
 
-        <!--Aquib Jawed-->
+        <!--team3-->
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
@@ -372,7 +371,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/aquib" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
@@ -462,7 +461,7 @@
 
         </android.support.v7.widget.CardView>
 
-        <!--Ali Shiraz-->
+        <!--team4-->
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
@@ -480,7 +479,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/ali" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
@@ -570,7 +569,7 @@
 
         </android.support.v7.widget.CardView>
 
-        <!--Anshu Shandilya-->
+        <!--team5-->
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
@@ -588,7 +587,7 @@
                 <ImageView
                     android:layout_width="129dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/pic" />
+                    android:src="@drawable/user1" />
 
                 <LinearLayout
                     android:layout_width="235dp"
