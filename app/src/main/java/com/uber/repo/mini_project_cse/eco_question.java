@@ -12,6 +12,6 @@ public class eco_question extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eco_question);
         PDFView pdfView = findViewById(R.id.pdfview_eco_question);
-        pdfView.fromAsset("eco_question.pdf").load();
+        //pdfView.fromAsset("eco_question.pdf").load();
     }
 }

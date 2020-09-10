@@ -12,6 +12,6 @@ public class OS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_os);
         PDFView pdfView = findViewById(R.id.pdfview_os);
-        pdfView.fromAsset("os.pdf").load();
+        //pdfView.fromAsset("os.pdf").load();
     }
 }

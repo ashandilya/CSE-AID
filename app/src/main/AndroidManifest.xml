@@ -60,6 +60,10 @@
         <activity android:name=".or_question" />
         <activity android:name=".os_question" />
         <activity android:name=".dbms_question"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

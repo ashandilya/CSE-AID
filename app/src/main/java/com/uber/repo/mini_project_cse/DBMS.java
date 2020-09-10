@@ -13,6 +13,6 @@ public class DBMS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dbms);
         pdfView = findViewById(R.id.pdfview_dbms);
-        pdfView.fromAsset("dbms.pdf").load();
+        //pdfView.fromAsset("dbms.pdf").load();
     }
 }

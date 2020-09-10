@@ -15,7 +15,7 @@ public class routine_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_routine_);
 
         pdfView = (PDFView) findViewById(R.id.pdfview_routine);
-        pdfView.fromAsset("routine.pdf").load();
+        //pdfView.fromAsset("routine.pdf").load();
 
 
     }

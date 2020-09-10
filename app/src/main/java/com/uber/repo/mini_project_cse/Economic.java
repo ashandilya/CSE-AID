@@ -12,6 +12,6 @@ public class Economic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_economic);
         PDFView pdfView = findViewById(R.id.pdfview_economic);
-        pdfView.fromAsset("economic.pdf").load();
+        //pdfView.fromAsset("economic.pdf").load();
     }
 }

@@ -15,6 +15,6 @@ public class calender_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_calender_);
 
         pdfView = findViewById(R.id.pdfview_calender);
-        pdfView.fromAsset("acodd2018.pdf").load();
+        //pdfView.fromAsset("acodd2018.pdf").load();
     }
 }

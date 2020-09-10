@@ -12,6 +12,6 @@ public class java extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_java);
         PDFView pdfView = findViewById(R.id.pdfview_java);
-        pdfView.fromAsset("java.pdf").load();
+       // pdfView.fromAsset("java.pdf").load();
     }
 }

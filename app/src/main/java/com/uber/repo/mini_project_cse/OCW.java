@@ -15,8 +15,8 @@ public class OCW extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ocw);
         TextView textView = (TextView) findViewById(R.id.for_font);
-        Typeface myCustomFont= Typeface.createFromAsset(getAssets(),"Font/Vollkorn-Regular.ttf");
-        textView.setTypeface(myCustomFont);
+        //Typeface myCustomFont= Typeface.createFromAsset(getAssets(),"Font/Vollkorn-Regular.ttf");
+        //textView.setTypeface(myCustomFont);
 
     }
     public void dbms(View view)

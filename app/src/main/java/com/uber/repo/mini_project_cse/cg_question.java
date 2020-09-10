@@ -13,7 +13,7 @@ public class cg_question extends AppCompatActivity {
         setContentView(R.layout.activity_cg_question);
 
         PDFView pdfView = findViewById(R.id.pdfview_cg_question);
-        pdfView.fromAsset("cg_question.pdf");
+       // pdfView.fromAsset("cg_question.pdf");
     }
 
 }

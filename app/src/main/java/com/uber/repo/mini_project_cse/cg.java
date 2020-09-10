@@ -12,6 +12,6 @@ public class cg extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cg);
        PDFView pdfView = findViewById(R.id.pdfview_cg);
-        pdfView.fromAsset("cg.pdf").load();
+       // pdfView.fromAsset("cg.pdf").load();
     }
 }

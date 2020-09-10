@@ -12,6 +12,6 @@ public class OR extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_or);
         PDFView pdfView = findViewById(R.id.pdfview_or);
-        pdfView.fromAsset("or.pdf").load();
+       // pdfView.fromAsset("or.pdf").load();
     }
 }

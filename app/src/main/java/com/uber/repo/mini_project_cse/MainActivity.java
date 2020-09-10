@@ -1,6 +1,7 @@
 package com.uber.repo.mini_project_cse;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,6 +14,7 @@ import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //FullScreen Enable or Hide Status bar
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         /*new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -40,7 +45,7 @@ public class MainActivity extends AppCompatActivity
             }
         },SPLASH_TIME_OUT);*/
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //Toolbar toolbar = findViewById(R.id.toolbar);
         routine=(CardView) findViewById(R.id.routine);
         calender= (CardView) findViewById(R.id.calender);
         nav_camera = (CardView) findViewById(R.id.nav_camera);
@@ -65,13 +70,14 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
+        //toolbar.setBackgroundColor(Color.TRANSPARENT);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        /*DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
-        toggle.syncState();
+        toggle.syncState();*/
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);

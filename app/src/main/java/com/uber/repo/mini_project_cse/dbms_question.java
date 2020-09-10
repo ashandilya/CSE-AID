@@ -12,6 +12,6 @@ public class dbms_question extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dbms_question);
         PDFView pdfView = findViewById(R.id.pdfview_dbms_question);
-        pdfView.fromAsset("dbms_question.pdf").load();
+        //pdfView.fromAsset("dbms_question.pdf").load();
     }
 }
